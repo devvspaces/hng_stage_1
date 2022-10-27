@@ -6,7 +6,7 @@ from rest_framework.decorators import api_view
 def get_user_details(request):
     data = {
         "slackUsername": "netrobe",
-        "backend": "Python - Django / Golang",
+        "backend": True,
         "age": 20,
         "bio": "I am a student of UoL that loves coding."
     }

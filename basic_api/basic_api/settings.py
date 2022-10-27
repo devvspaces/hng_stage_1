@@ -14,13 +14,23 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
 
     'rest_framework',
+    'corsheaders',
     'hng',
 ]
 
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+    ]
+}
+
 MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
+    "corsheaders.middleware.CorsMiddleware",
     'django.middleware.common.CommonMiddleware',
 ]
+
+CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'basic_api.urls'
 
