@@ -46,7 +46,7 @@ def calculate(request):
         'multiplication': lambda x, y: x * y
     }
 
-    result = operation_map[operation_type](x, y)
+    result = int(operation_map[operation_type](x, y))
 
     data = {
         "slackUsername": "netrobe",
