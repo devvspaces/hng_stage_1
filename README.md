@@ -1,4 +1,4 @@
-# Stage 1 HNG Backend Development Track
+# HNG Backend Development Track
 
 ## Table of Contents
 
@@ -8,7 +8,15 @@
 
 ## About <a name = "about"></a>
 
-Building a Simplet REST API app for the HTTP GET method.
+Building a Simplet REST API app for the HTTP GET method and POST for basic calculation.
+
+    [x] Stage 1
+    
+    [x] Stage 2
+    
+    [ ] Stage 3
+    
+    [ ] Stage 4 
 
 ## Getting Started <a name = "getting_started"></a>
 
